@@ -24,14 +24,17 @@
   align-items: center;
 }
 
-.logo__place_header {
+.logo {
   height: 32px;
   width: 228px;
+  margin: 0;
+}
+
+.logo_place_header {
   position: absolute;
   z-index: 1;
   top: 30px;
   left: 64px;
-  margin: 0;
 }
 
 .header__title {
@@ -175,6 +178,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -280,7 +284,7 @@
   z-index: 1;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -290,7 +294,7 @@
   color: #f2f2f2;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -368,9 +372,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
-  height: 32px;
-  width: 228px;
+.logo_place_footer {
   display: flex;
 }
 
