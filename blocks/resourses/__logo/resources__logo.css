@@ -5,7 +5,6 @@
   transition: transform 2s;
 }
 
-.resources__logo:hover{
+.resources__logo:hover {
   transform: rotate(360deg);
 }
-
