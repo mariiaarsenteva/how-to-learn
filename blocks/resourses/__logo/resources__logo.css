@@ -1,0 +1,11 @@
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  margin-top: 80px;
+  transition: transform 2s;
+}
+
+.resources__logo:hover{
+  transform: rotate(360deg);
+}
+

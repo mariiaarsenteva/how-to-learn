@@ -24,7 +24,7 @@
           class="header__main-illustration"
           src="./images/header-image.png"
           alt="Опять двойка">
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -50,6 +50,78 @@
               </p>
             </div>
           </div>
+        </section>
+        <section class="techniques">
+          <h2 class="section-title">Техники обучения</h2>
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+          <ul class="cards">
+            <li class="cards__item">
+              <img class="cards__image"
+              src="./images/cards-attention.png"
+              alt="Книга в руках">
+              <h3 class="cards__title">Два вида внимания</h3>
+              <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image"
+              src="./images/cards-recall.png"
+              alt="Статуя задумалась">
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image"
+              src="./images/cards-interliving.png"
+              alt="Интерливинг">
+              <h3 class="cards__title">Интерливинг</h3>
+              <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image"
+              src="./images/cards-question.png"
+              alt="Зал с окнами">
+              <h3 class="cards__title">Вопросы</h3>
+              <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image"
+              src="./images/cards-competence.png"
+              alt="Книги на ладошке">
+              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+            </li>
+          </ul>
+        </section>
+        <section class="video">
+          <h2 class="section-title">Видео нa TED</h2>
+          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+          <div class="video__iframes">
+            <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                Ни в школе, ни в институте нас не учат тому, как правильно
+                изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
+                тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+                но часто в итоге это не дает нам реального знания. Зубрежка
+                быстро выветривается и не приносит пользы.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="feynman">
+          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a class="feynman__link" href="#">Подробнее &xrarr;</a>
+          <img
+            class="feynman__background"
+            src="./images/feynman.png"
+            alt="Фотография Фейнмана">
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -99,14 +171,19 @@
             </li>
           </ul>
         </section>
-        <section class="feynman">
-          <h2 class="feynman__title">Метод Фейнмана</h2>
-          <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="feynman__link" href="#">Подробнее &xrarr;</a>
-          <img
-            class="feynman__background"
-            src="./images/feynman.png"
-            alt="Фотография Фейнмана">
+        <section class="khan">
+          <div class="khan__container">
+            <p class="khan__author">Cалман Хан</p>
+            <h3 class="khan__title">Весь мир — школа</h3>
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            <p class="khan__quote-author">Джордж Лукас</p>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          </div>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan-book.jpg"
+            alt="Обложка книги Весь мир — школа">
+            <a class="khan__buy-link" href="#">Купить книгу &xrarr;</a>
+          </div>
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -115,7 +192,7 @@
           <p class="section-subtitle section-subtitle_theme_dark">
             от Джоша Кауфмана
           </p>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
           <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -180,6 +257,16 @@
           </ul>
         </section>
       </main>
+      <section class="resources">
+        <h3 class="section-title">Полезные ресурсы</h3>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <div class="resources_logo-zone">
+        <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Лого Арзамас"></a>
+        <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Лого N+1"></a>
+        <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Лого Стрелка"></a>
+        <a class="resources__link" href="#"><img class=" resources__logo" src="./images/logo/resources-polka.svg" alt="Лого Полка"></a>
+        </div>
+      </section>
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">

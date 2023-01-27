@@ -7,8 +7,13 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  opacity: 1;
 }
 
 .footer__column-link:last-of-type {
   margin-bottom: 16px;
+}
+
+.footer__column-link:hover{
+  opacity: 0.5;
 }

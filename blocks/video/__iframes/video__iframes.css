@@ -1,0 +1,8 @@
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 0;
+  transform: translateY(50px);
+  z-index: 1;
+}
